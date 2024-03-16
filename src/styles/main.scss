@@ -57,6 +57,10 @@ body {
 
 .text--small {
   @include text(12px);
+  
+  @media (max-width: 768px) {
+    @include text(11px);
+  }
 }
 
 .link-text {
